@@ -34,9 +34,12 @@
     .banner-button {
         margin: 20px 0px 0px 14px;
     }
+    .banner-img {
+        text-align: center;
+    }
     .banner-img img {
-        width: 374px;
-        margin: 65px 0px 65px 25px;
+        width: 90%;
+        margin-top: 65px;
     }
     /* Post */
     /* Post */
@@ -111,5 +114,20 @@
     .socisl-footer {
         margin-bottom: 17px;
     }
+    .Review-div {
+        display: flex;
+        flex-direction: column;
+        grid-column-gap: 0px;
+        align-items: center;
+        padding: 10px 0px;
+        justify-items: center;
+        margin: 60px 0px;
+    }
+    .match {
+        justify-content: center;
+        padding: 17px 0px;
+        align-items: center;
+    }
+
 }
 
